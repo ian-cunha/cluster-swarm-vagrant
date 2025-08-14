@@ -58,7 +58,7 @@ Após a finalização do comando `vagrant up`, você pode verificar se o cluster
     A saída deve ser semelhante a esta, mostrando o master como "Leader" e os outros três nós prontos:
     ```
     ID                            HOSTNAME   STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION
-    axjxxxxxxxxxxxxxxxxxx * master     Ready     Active         Leader           27.x.x
+    axjxxxxxxxxxxxxxxxxxx         master     Ready     Active         Leader           27.x.x
     bcyxxxxxxxxxxxxxxxxxx         node01     Ready     Active                          27.x.x
     dzzxxxxxxxxxxxxxxxxxx         node02     Ready     Active                          27.x.x
     fwqxxxxxxxxxxxxxxxxxx         node03     Ready     Active                          27.x.x
