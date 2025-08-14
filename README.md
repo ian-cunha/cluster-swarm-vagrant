@@ -18,7 +18,7 @@ Antes de começar, garanta que você tenha os seguintes softwares instalados em 
 
 * [Git](https://git-scm.com/)
 * [Vagrant](https://www.vagrantup.com/downloads)
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [HyperV](https://learn.microsoft.com/pt-br/windows-server/virtualization/hyper-v/get-started/install-hyper-v?tabs=powershell)
 
 ## 🚀 Como Executar
 
@@ -26,12 +26,12 @@ Siga os passos abaixo para subir o ambiente:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/ian-cunha/cluster-swarm-vagrant.git](https://github.com/ian-cunha/cluster-swarm-vagrant.git)
+    git clone https://github.com/ian-cunha/cluster-swarm-vagrant.git
     ```
 
 2.  **Acesse o diretório do projeto:**
     ```bash
-    cd seu-repositorio
+    cd cluster-swarm-vagrant
     ```
 
 3.  **Inicie o ambiente com Vagrant:**
@@ -70,7 +70,6 @@ Após a finalização do comando `vagrant up`, você pode verificar se o cluster
 * `install_docker.sh`: Script executado em todas as VMs para instalar o Docker.
 * `master_setup.sh`: Script executado apenas no nó `master` para inicializar o Swarm.
 * `worker_setup.sh`: Script executado nos nós `nodeXX` para que eles se juntem ao cluster.
-* `README.md`: Este arquivo.
 
 ## ⚙️ Comandos Úteis do Vagrant
 
